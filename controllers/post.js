@@ -1,5 +1,6 @@
 const db = require('../models');
 
+//find all users' posts
 const index = (req, res) => {
     db.post.findAll()
         .then((posts) => {
@@ -11,8 +12,18 @@ const index = (req, res) => {
         .catch(error => res.status(500).send(error));
 }
 
-//need a findAll where user_id matches req.user.id (or so)
-//here
+//find all posts for current user only
+const indexUserPosts = (req, res) => {
+    db.post.findAll({
+        where: {
+            userId: req.user.id
+        }
+    })
+        .then((userPosts) => {
+            //ADD empty state response here
+            res.status(200).json({ posts: userPosts })
+        })
+}
 
 const create = async (req, res) => {
     const createdPost = await db.post.create(req.body);
@@ -61,6 +72,7 @@ const destroy = (req, res) => {
 
 module.exports = {
     index,
+    indexUserPosts,
     create,
     show,
     update,
