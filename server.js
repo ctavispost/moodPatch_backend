@@ -25,7 +25,7 @@ const corsOptions = {
   optionsSuccessStatus: 204
 }
 
-app.use(cors(corsOptions))
+app.use(cors(corsOptions));
 
 // middleware - session config
 app.use(session({
@@ -36,14 +36,15 @@ app.use(session({
   cookie: {
     maxAge: 1000 * 60 * 60 * 24
   } 
-}))
+}));
 
 // middleware - passport config
-app.use(passport.initialize())
-app.use(passport.session())
+app.use(passport.initialize());
+app.use(passport.session());
 
 // middleware - API routes
-app.use('/api/v1/auth', routes.auth)
+app.use('/api/v1/auth', routes.auth);
+app.use('api/v1/post', routes.post);
 
 // connection
-app.listen(port, () => console.log(`Server is running on port ${port}`))
+app.listen(port, () => console.log(`Server is running on port ${port}`));
