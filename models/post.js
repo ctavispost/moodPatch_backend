@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
   };
   post.init({
     user_id: DataTypes.INTEGER,
-    color: DataTypes.INTEGER
+    color_id: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'post',

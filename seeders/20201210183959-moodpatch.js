@@ -52,151 +52,151 @@ module.exports = {
     const bulkposts = await queryInterface.bulkInsert('posts', [
       {
         user_id: 1,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 1,
-        color: 2,
+        color_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 1,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 1,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 1,
-        color: 4,
+        color_id: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 1,
-        color: 5,
+        color_id: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 2,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 2,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 2,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 2,
-        color: 4,
+        color_id: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 2,
-        color: 5,
+        color_id: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 3,
-        color: 4,
+        color_id: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 3,
-        color: 4,
+        color_id: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 3,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 3,
-        color: 2,
+        color_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 3,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 4,
-        color: 5,
+        color_id: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 4,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 4,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 4,
-        color: 2,
+        color_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 5,
-        color: 1,
+        color_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 5,
-        color: 2,
+        color_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 5,
-        color: 3,
+        color_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 5,
-        color: 4,
+        color_id: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         user_id: 5,
-        color: 5,
+        color_id: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
