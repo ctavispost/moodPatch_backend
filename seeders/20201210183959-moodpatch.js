@@ -51,152 +51,152 @@ module.exports = {
     //posts
     const bulkposts = await queryInterface.bulkInsert('posts', [
       {
-        user_id: 1,
-        color_id: 3,
+        userId: 1,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 1,
-        color_id: 2,
+        userId: 1,
+        colorId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 1,
-        color_id: 1,
+        userId: 1,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 1,
-        color_id: 3,
+        userId: 1,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 1,
-        color_id: 4,
+        userId: 1,
+        colorId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 1,
-        color_id: 5,
+        userId: 1,
+        colorId: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 2,
-        color_id: 3,
+        userId: 2,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 2,
-        color_id: 1,
+        userId: 2,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 2,
-        color_id: 1,
+        userId: 2,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 2,
-        color_id: 4,
+        userId: 2,
+        colorId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 2,
-        color_id: 5,
+        userId: 2,
+        colorId: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 3,
-        color_id: 4,
+        userId: 3,
+        colorId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 3,
-        color_id: 4,
+        userId: 3,
+        colorId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 3,
-        color_id: 3,
+        userId: 3,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 3,
-        color_id: 2,
+        userId: 3,
+        colorId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 3,
-        color_id: 1,
+        userId: 3,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 4,
-        color_id: 5,
+        userId: 4,
+        colorId: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 4,
-        color_id: 1,
+        userId: 4,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 4,
-        color_id: 3,
+        userId: 4,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 4,
-        color_id: 2,
+        userId: 4,
+        colorId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 5,
-        color_id: 1,
+        userId: 5,
+        colorId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 5,
-        color_id: 2,
+        userId: 5,
+        colorId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 5,
-        color_id: 3,
+        userId: 5,
+        colorId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 5,
-        color_id: 4,
+        userId: 5,
+        colorId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        user_id: 5,
-        color_id: 5,
+        userId: 5,
+        colorId: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },

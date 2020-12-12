@@ -7,9 +7,12 @@ const index = (req, res) => {
             if (!posts) return res.json({
                 message: 'No posts found in db.'
             });
+            console.log(posts);
             res.status(200).json({ posts: posts });
         })
-        .catch(error => res.status(500).send(error));
+        .catch(error => {
+            res.status(500).send(error)
+        });
 }
 
 //find all posts for current user only
