@@ -7,7 +7,6 @@ const index = (req, res) => {
             if (!posts) return res.json({
                 message: 'No posts found in db.'
             });
-            console.log(posts);
             res.status(200).json({ posts: posts });
         })
         .catch(error => {
@@ -30,7 +29,6 @@ const indexUserPosts = (req, res) => {
 
 const create = async (req, res) => {
     const createdPost = await db.post.create(req.body);
-    const relationInfo = await createdPost.addUser(req.user);
     res.json(createdPost);
 }
 
