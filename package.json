@@ -14,5 +14,19 @@
     "passport-local": "^1.0.0",
     "pg": "^8.4.2",
     "sequelize": "^6.3.5"
-  }
+  },
+  "name": "moodpatch_backend",
+  "description": "> Note: Authenticated /w Passport",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctavispost/moodPatch_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctavispost/moodPatch_backend/issues"
+  },
+  "homepage": "https://github.com/ctavispost/moodPatch_backend#readme"
 }
