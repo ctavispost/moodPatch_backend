@@ -34,6 +34,3 @@ Moodpatch will soon have:
 - Oauth authentication
 - Faster performance
 - Prettier modals
-
-![top of the main page](./screenshots/top.png)
-![a modal over colorful squares](./screenshots/modal.png)
